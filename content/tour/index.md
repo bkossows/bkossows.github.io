@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: changes.png
             filters:
               brightness: 0.7
           position: right
@@ -33,7 +33,7 @@ sections:
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: welcome.png
             filters:
               brightness: 0.5
           position: center
