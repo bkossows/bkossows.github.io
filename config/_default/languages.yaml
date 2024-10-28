@@ -5,18 +5,53 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+pl:
+  languageCode: pl
+  contentDir: content/pl
+  menu:
+    main:
+      - name: Tour
+        url: tour
+        weight: 10
+      - name: News
+        url: post
+        weight: 20
+      - name: Zespół
+        url: people
+        weight: 30
+      - name: Wydarzenia
+        url: event
+        weight: 40
+      - name: Publikacje
+        url: publication
+        weight: 50
+      - name: Kontakt
+        url: contact
+        weight: 60
+
+nb:
+  languageCode: nb
+  contentDir: content/nb
+  menu:
+    main:
+      - name: Tour
+        url: tour
+        weight: 10
+      - name: News
+        url: post
+        weight: 20
+      - name: Team
+        url: people
+        weight: 30
+      - name: Hendelser
+        url: event
+        weight: 40
+      - name: Publikasjoner
+        url: publication
+        weight: 50
+      - name: Kontakt
+        url: contact
+        weight: 60
+
